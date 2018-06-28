@@ -1,105 +1,194 @@
 body{
     margin: 0 auto;
 }
+
+.body-img{
+    height:200px;
+    width:200px;
+}
+
+/*===========Navigation===========*/
 .nav-bar{
-    background-color:blue;
-    opacity: 0.5;
-    height:50px;
+    background-color:#dd0000;
+    /*opacity: 0.5;*/
+    height:100px;
     width:100%;
-    top:0px;
+    /*top:0px;*/
 }
 #logo{
-    height:50px;
+    height:60px;
+    margin-top:9px;
 }
-.banner-background{
+.nav-items{
+    float:right;
+}
+.list-item{
+    list-style-type:none;
+    display:inline-block;
+    margin-right:15px;
+    margin-top:20px;
+    height:50px;
+    /*font-family:vortice-concept, sans-serif;*/
+    font-style: normal;
+    font-weight: 400;
+    font-size:30px;
+}
+a:link{
+    color:white;
+    text-decoration:none;
+}
 
-    height:100%;
+/* visited link */
+a:visited{
+    color:white;
+    text-decoration:none;
+}
+
+/* mouse over link */
+a:hover{
+    color:#000;
+    text-decoration:none;
+}
+
+/* selected link */
+a:active{
+    color:white;
+    text-decoration:none;
+}
+
+/*===========Banner===========*/
+.banner-background{
+    height:500px;
     width:100%;
-    background-image: url('../img/park.jpg');
+    background-image: url('../img/germanybanner1.png');
     position:center;
     background-size: 100% 100%;
 }
 
 .banner-text {
     /*background-color: red;*/
-    width:2000px;
-    height:75px;
-    text-align:center;
-    display: inline-block;
-    margin-left:100px;
-    margin-top:185px;
-
-}
-.banner-text h1{
-    color:#FFFFFF;
-    height: 50px;
-    font-size: 32px;
+    /*text-align:center;*/
+    display:inline-block;
+    color:black;
+    font-size:80px;
+    margin-left:270px;
     /*font-family:cursive;*/
 }
-.nav-items{
-    float:right;
-
-}
-.list-item{
-    list-style-type:none;
-    display:inline-block;
-    margin-right:15px;
-    color:white;
-    /*background-color:red;*/
-    /*height:30px;*/
-    /*width:70px;*/
-    /*border-raius:2px;*/
+.banner {
+    text-align: center;
 }
 
-p{
-    margin-left:50px;
-    width:600px;
-    height:50;
+.cols{
+    width:50%;
+    height:100%;
+    /*display:inline-block;*/
+    float: right;
+}
+.col-one p{
+    margin:50px;
+    font-size: 35px;
+}
+.col-two{
+    text-align: center;
+    
+}
+.col-two img{ /* this targets all img tags inside of any element with a class of "one" */
+    width: 800px;
+    height: auto;
+    margin-top: 40px;
+    /*border:5px solid #ffce00;*/
+    box-shadow: 0 15px 22px 0 rgba(0, 0, 0, 0.5), 0 15px 20px 0 rgba(0, 0, 0, 0.10);
+}
+/*==========="Gallery" in About Section===========*/
+.columns{
+    margin:0 auto;
+    margin:40px;
+}
+.german-info{
+    margin:40px;
+}
+.about-img{
+    margin:40px;
+}
+.float{
+    float:left;
+}
+.one{
+    margin-top:80px;
+    margin-left:120px;
+}
+.two{
+    margin-top:70px;
+}
+.three{
+    margin-top:110px;
+}
+.four{
+    clear:left;
+    margin-left:120px;
 }
 
-a:hover{
-    color:white;
+.five{
+    margin-top:110px;
 }
-
+.seven{
+    margin-top:110px;
+}
+.about-fonts{
+    font-size:30px;
+}
+.contact-form{
+    height:1200px;
+}
+.contact-col{
+    width: 48%;
+    display:block;
+    text-align: center;
+    margin: 50px 0px 20px 590px;
+}
+/*===========Footer===========*/
 .footer{
-    border: 1px dashed blue;
+    background-color: #dd0000;
+    /*border: 1px dashed blue;*/
     width:100%;
     height:100px;
     clear:both;
-    vertical-align: top;
+    /*vertical-align:top;*/
 }
 .footer-col{
     width:33%;
-    border:1px dashed black;
-    display: block;
+    /*border:1px dashed black;*/
+    display:block;
     float:left;
     margin:0 auto;
-    text-align: center;
-    margin-left: 5px;
+    margin-top:30px;
+    text-align:center;
+    margin-left:5px;
+    font-size:25px;
 }
+/*.footer-social{*/
+/*    margin: 5px;*/
+/*}*/
 .footer-btn{
-    color:black;
+    color:#FFFFFF;
     width:120px;
-    height:50;
-    font-size:20px;
+    height:100;
     border-radius:25px;
     margin-left:300px;
-    
 }
-
 .img1{
     width:120px;
     height:50;   
 }
-.column{
-    border: 2px solid #3c5798;
-    width: 30%;
-    height:555px;
-    padding: 5px;
-    margin: 12px;
-    float: right;
-    text-align: center;
-}
+/*.column{*/
+/*    border:2px solid #3c5798;*/
+/*    width:30%;*/
+/*    height:555px;*/
+/*    padding:5px;*/
+/*    margin:12px;*/
+/*    float:right;*/
+/*    text-align: center;*/
+/*}*/
 .contact-form{
     width:700px;
     height:800px;
